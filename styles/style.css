@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+.banner-container{
+    width: auto;
+    height: 100px;
+    padding: 20px 30px;
+    text-align: center;
+    background-image: url(../images/banner\ pci.png);
+    background-size: cover;
+    background-position: center;
+    /* border: 2px solid red; */
+    
+}
+.banner{
+    margin-bottom: 10px;
+    color: purple;
+    /* border: 2px solid red; */
+}
+.btn{
+    margin-top: 10px;
+    background-color: purple;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: 10px;
+    
+}
+div.banner-contain{
+    background-color: #ffffff8a;
+    padding: 5px;
+    
+}
