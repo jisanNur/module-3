@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  }
+}
 
-.banner-container{
+/* banner start */
+.banner-container {
     width: auto;
     height: 100px;
     padding: 20px 30px;
@@ -12,25 +13,87 @@
     background-size: cover;
     background-position: center;
     /* border: 2px solid red; */
-    
+
 }
-.banner{
+
+.banner {
     margin-bottom: 10px;
-    color: purple;
+    color: green;
     /* border: 2px solid red; */
 }
-.btn{
+
+.btn {
     margin-top: 10px;
-    background-color: purple;
+    background-color: green;
     border: none;
     padding: 5px;
     border-radius: 5px;
     color: white;
     font-size: 10px;
-    
+    text-decoration: none;
+
 }
-div.banner-contain{
+
+div.banner-contain {
     background-color: #ffffff8a;
     padding: 5px;
-    font-size: 10px;
+}
+
+/* banner end */
+
+/* cosmetic container start */
+.consmetic-container {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+}
+
+.card {
+    width: 20%;
+    /* border: 2px solid gray; */
+    border-radius: 5px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 10px 10px 30px gray;
+}
+
+.image {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.cosmetic-text {
+    font-size: 14px;
+    margin: 5px;
+    text-align: justify;
+}
+
+/* cosmetic container end */
+
+/* green mart container start */
+.green-mart-container {
+    margin: auto;
+    padding: 20px;
+    width: 80%;
+}
+
+.green-mart-contain {
+    display: flex;
+    /* border: 2px solid red; */
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 10px 20px;
+
+}
+
+.store-image {
+    padding: 10px;
+    width: 30%;
+}
+
+.green-mart-text {
+    padding: 10px;
+    width: 70%;
+    text-align: justify;
+
+
 }
